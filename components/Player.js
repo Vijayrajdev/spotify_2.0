@@ -36,7 +36,6 @@ const Player = () => {
 
   return (
     <div className="h-24 bg-gradient-to-b from-black to-gray-900 text-white">
-      {/* Left */}
       <div>
         <img
           className="hidden md:inline h-10 w-10"
