@@ -1,5 +1,4 @@
 import {
-  HeartIcon,
   HomeIcon,
   LibraryIcon,
   PlusCircleIcon,
@@ -7,6 +6,7 @@ import {
   SearchIcon,
 } from "@heroicons/react/outline";
 
+import { HeartIcon } from "@heroicons/react/solid";
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { useRecoilState } from "recoil";
@@ -49,11 +49,11 @@ const Sidebar = () => {
           <p>Create Playlist</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white">
-          <HeartIcon className="h-5 w-5" />
-          <p>Favourites</p>
+          <HeartIcon className="h-5 w-5 text-blue-700" />
+          <p>Liked songs</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white">
-          <RssIcon className="h-5 w-5" />
+          <RssIcon className="h-5 w-5 text-green-500" />
           <p>Your Episodes</p>
         </button>
         <hr className="border-t-[0.1px] border-gray-900" />
