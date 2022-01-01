@@ -40,6 +40,7 @@ const Song = ({ order, track }) => {
         <p className=" w-40 hidden md:inline-flex">{track.track.album.name}</p>
         <p>{millisToMinuteAndSeconds(track.track.duration_ms)}</p>
       </div>
+      
     </div>
   );
 };

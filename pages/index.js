@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Spotify 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Spotify 2.0 | Vijaydev</title>
+        <link rel="icon" href="https://links.papareact.com/9xl" />
       </Head>
       <div className="bg-black h-screen overflow-hidden">
         <main className="flex">

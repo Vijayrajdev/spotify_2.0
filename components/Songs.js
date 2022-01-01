@@ -9,6 +9,12 @@ const Songs = () => {
       {playlist?.tracks.items.map((track, i) => (
         <Song key={track.track.id} track={track} order={i} />
       ))}
+      <div className="flex items-center justify-center space-x-2">
+        <h1 className="">Made with ❤️ |</h1>
+        <p className="text-green-500">
+          <a href="https://vijayraj.netlify.app/">Vijay⚡</a>
+        </p>
+      </div>
     </div>
   );
 };
